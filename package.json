@@ -1,0 +1,11 @@
+{
+  "name": "rar-monday-bitly-webhook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "@now/node": "^1.5.0",
+    "micro-cors": "^0.1.1"
+  }
+}
