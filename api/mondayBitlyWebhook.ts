@@ -21,7 +21,7 @@ export default (req: NowRequest, res: NowResponse) => {
 }
 
 const handleChallenge = (req, res) => {
-  res.json({ challenge: res.body.challenge })
+  res.json({ challenge: req.body.challenge })
 }
 
 const handleGet = (req, res) => {
